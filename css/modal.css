@@ -3,13 +3,13 @@
 .vmodal.open .modal-overlay,
 .vmodal.open .modal-window{
     opacity: 1;
-    z-index: 2;
+    z-index: 1000;
 }
 
 .vmodal.hide .modal-overlay,
 .vmodal.hide .modal-window{
     opacity: 1;
-    z-index: 2;
+    z-index: 1000;
 }
 
 .vmodal.open .modal-window{
@@ -48,7 +48,7 @@
     border-radius: 5px;
     background: #fff;
     margin: 0 auto;
-    trasform: translateY(-200px);
+    transform: translateY(-200px);
     transition: transform .2s ease-in;
 }
 
@@ -56,7 +56,7 @@
     padding: 5px 10px;
     display: flex;
     justify-content: space-between;
-    b-bottom: 1px solid #eee;
+    border-bottom: 1px solid #eee;
 }
 
 .modal-title{
